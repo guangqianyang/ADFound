@@ -26,7 +26,7 @@ To install mamba-ssm, please refer to [Vim](https://github.com/hustvl/Vim), whic
 
 Our pretraining stragy can be divided into two stages:
 
-- The first pre-training stage: The ADFound is pre-trained under the supervision of reconstruction loss for MRI $L_{rec}^{M}$ and PET reconstruction $L_{rec}^{P}$ and intra-modal contrastive loss for MRI $ L_{intra}^{M}$ and PET $L_{intra}^{P}$.
+- The first pre-training stage: The ADFound is pre-trained under the supervision of reconstruction loss for MRI $L_{rec}^{M}$ and PET reconstruction $L_{rec}^{P}$ and intra-modal contrastive loss for MRI $L_{intra}^{M}$ and PET $L_{intra}^{P}$.
 
 - The second pre-training stage: The inter-modal contrastive loss $L_{inter}$ was combined into training loss at the first stage with a constant weight $\lambda$.
 
