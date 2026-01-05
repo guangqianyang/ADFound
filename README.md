@@ -21,8 +21,8 @@ Alzheimer's disease (AD) is an incurable neurodegenerative disorder characterize
 
 To install mamba-ssm, please refer to [Vim](https://github.com/hustvl/Vim), which must be installed with cuda 11.8.
 
-## Pretrain
 
+## Pretrain
 
 Our pretraining stragy can be divided into two stages:
 
@@ -30,7 +30,10 @@ Our pretraining stragy can be divided into two stages:
 
 - The second pre-training stage: The inter-modal contrastive loss $L_{inter}$ was combined into training loss at the first stage with a constant weight $\lambda$.
 
-
+## Finetuning
+The pre-trained model weights can be found in [google drive](https://drive.google.com/drive/folders/1G_l36YYi0y9fTPZsockWmC5QtxJaA2IU?usp=sharing), where:
+- multi_B_mae_1600.pt: The pre-trained weights of the first pre-training stage.
+- multi_B_mae_500.pt: The pre-trained weights of the second pre-training stage.
 ## Citation
 If you find Vim is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 
