@@ -38,11 +38,13 @@ The pre-trained model weights can be found in [google drive](https://drive.googl
 If you find Vim is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 
 ```bibtex
-@article{yang2025adfound,
-  title={ADFound: A Foundation Model for Diagnosis and Prognosis of Alzheimer's Disease},
-  author={Yang, Guangqian and Du, Kangrui and Yang, Zhihan and Du, Ye and Cheung, Eva Yi Wah and Zheng, Yongping and Yang, Mo and Kourtzi, Zoe and Schonlieb, Carola-Bibiane and Wang, Shujun},
-  journal={IEEE journal of biomedical and health informatics},
+@ARTICLE{11023095,
+  author={Yang, Guangqian and Du, Kangrui and Yang, Zhihan and Du, Ye and Cheung, Eva Yi Wah and Zheng, Yongping and Yang, Mo and Kourtzi, Zoe and Schönlieb, Carola-Bibiane and Wang, Shujun and Alzheimer’s Disease Neuroimaging Initiative},
+  journal={IEEE Journal of Biomedical and Health Informatics}, 
+  title={ADFound: A Foundation Model for Diagnosis and Prognosis of Alzheimer’s Disease}, 
   year={2025},
-  publisher={IEEE}
-}
+  volume={29},
+  number={11},
+  pages={8395-8408},
+  doi={10.1109/JBHI.2025.3576436}}
 ```
