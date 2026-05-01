@@ -35,7 +35,7 @@ The pre-trained model weights can be found in [google drive](https://drive.googl
 - multi_B_mae_1600.pt: The pre-trained weights of the first pre-training stage.
 - multi_B_mae_500.pt: The pre-trained weights of the second pre-training stage.
 ## Citation
-If you find Vim is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
+If you find ADFound is useful in your research or applications, please consider giving us a star 🌟 and citing it by the following BibTeX entry.
 
 ```bibtex
 @ARTICLE{11023095,
